@@ -1,0 +1,99 @@
+WARNING: library LiquidCrystal I2C claims to run on avr architecture(s) and may be incompatible with your current board which runs on riscv architecture(s).
+In file included from C:\Users\praba\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.8\cores\riscduino/Arduino.h:43,
+                 from c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp:142:
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp: In member function 'uint8_t OneWire::reset()':
+C:\Users\praba\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.8\cores\riscduino/wiring_constants.h:76:24: error: '__disable_irq' was not declared in this scope
+   76 | #define noInterrupts() __disable_irq()
+      |                        ^~~~~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp:171:2: note: in expansion of macro 'noInterrupts'
+  171 |  noInterrupts();
+      |  ^~~~~~~~~~~~
+C:\Users\praba\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.8\cores\riscduino/wiring_constants.h:75:22: error: '__enable_irq' was not declared in this scope
+   75 | #define interrupts() __enable_irq()
+      |                      ^~~~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp:173:2: note: in expansion of macro 'interrupts'
+  173 |  interrupts();
+      |  ^~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp: In member function 'void OneWire::write_bit(uint8_t)':
+C:\Users\praba\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.8\cores\riscduino/wiring_constants.h:76:24: error: '__disable_irq' was not declared in this scope
+   76 | #define noInterrupts() __disable_irq()
+      |                        ^~~~~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp:204:3: note: in expansion of macro 'noInterrupts'
+  204 |   noInterrupts();
+      |   ^~~~~~~~~~~~
+C:\Users\praba\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.8\cores\riscduino/wiring_constants.h:75:22: error: '__enable_irq' was not declared in this scope
+   75 | #define interrupts() __enable_irq()
+      |                      ^~~~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp:209:3: note: in expansion of macro 'interrupts'
+  209 |   interrupts();
+      |   ^~~~~~~~~~
+C:\Users\praba\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.8\cores\riscduino/wiring_constants.h:76:24: error: '__disable_irq' was not declared in this scope
+   76 | #define noInterrupts() __disable_irq()
+      |                        ^~~~~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp:212:3: note: in expansion of macro 'noInterrupts'
+  212 |   noInterrupts();
+      |   ^~~~~~~~~~~~
+C:\Users\praba\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.8\cores\riscduino/wiring_constants.h:75:22: error: '__enable_irq' was not declared in this scope
+   75 | #define interrupts() __enable_irq()
+      |                      ^~~~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp:217:3: note: in expansion of macro 'interrupts'
+  217 |   interrupts();
+      |   ^~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp: In member function 'uint8_t OneWire::read_bit()':
+C:\Users\praba\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.8\cores\riscduino/wiring_constants.h:76:24: error: '__disable_irq' was not declared in this scope
+   76 | #define noInterrupts() __disable_irq()
+      |                        ^~~~~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp:232:2: note: in expansion of macro 'noInterrupts'
+  232 |  noInterrupts();
+      |  ^~~~~~~~~~~~
+C:\Users\praba\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.8\cores\riscduino/wiring_constants.h:75:22: error: '__enable_irq' was not declared in this scope
+   75 | #define interrupts() __enable_irq()
+      |                      ^~~~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp:239:2: note: in expansion of macro 'interrupts'
+  239 |  interrupts();
+      |  ^~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp: In member function 'void OneWire::write(uint8_t, uint8_t)':
+C:\Users\praba\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.8\cores\riscduino/wiring_constants.h:76:24: error: '__disable_irq' was not declared in this scope
+   76 | #define noInterrupts() __disable_irq()
+      |                        ^~~~~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp:258:2: note: in expansion of macro 'noInterrupts'
+  258 |  noInterrupts();
+      |  ^~~~~~~~~~~~
+C:\Users\praba\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.8\cores\riscduino/wiring_constants.h:75:22: error: '__enable_irq' was not declared in this scope
+   75 | #define interrupts() __enable_irq()
+      |                      ^~~~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp:261:2: note: in expansion of macro 'interrupts'
+  261 |  interrupts();
+      |  ^~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp: In member function 'void OneWire::write_bytes(const uint8_t*, uint16_t, bool)':
+C:\Users\praba\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.8\cores\riscduino/wiring_constants.h:76:24: error: '__disable_irq' was not declared in this scope
+   76 | #define noInterrupts() __disable_irq()
+      |                        ^~~~~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp:269:5: note: in expansion of macro 'noInterrupts'
+  269 |     noInterrupts();
+      |     ^~~~~~~~~~~~
+C:\Users\praba\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.8\cores\riscduino/wiring_constants.h:75:22: error: '__enable_irq' was not declared in this scope
+   75 | #define interrupts() __enable_irq()
+      |                      ^~~~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp:272:5: note: in expansion of macro 'interrupts'
+  272 |     interrupts();
+      |     ^~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp: In member function 'void OneWire::depower()':
+C:\Users\praba\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.8\cores\riscduino/wiring_constants.h:76:24: error: '__disable_irq' was not declared in this scope
+   76 | #define noInterrupts() __disable_irq()
+      |                        ^~~~~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp:316:2: note: in expansion of macro 'noInterrupts'
+  316 |  noInterrupts();
+      |  ^~~~~~~~~~~~
+C:\Users\praba\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.8\cores\riscduino/wiring_constants.h:75:22: error: '__enable_irq' was not declared in this scope
+   75 | #define interrupts() __enable_irq()
+      |                      ^~~~~~~~~~~~
+c:\Users\praba\OneDrive\Documents\Arduino\libraries\OneWire\OneWire.cpp:318:2: note: in expansion of macro 'interrupts'
+  318 |  interrupts();
+      |  ^~~~~~~~~~
+Multiple libraries were found for "Servo.h"
+  Used: C:\Users\praba\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.8\libraries\SERVO
+  Not used: C:\Users\praba\AppData\Local\Arduino15\libraries\Servo
+exit status 1
+
+Compilation error: exit status 1
